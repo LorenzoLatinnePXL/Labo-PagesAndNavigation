@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloPXL.Pages.HelloPage"
+             Title="PXL App">
+    <Grid RowDefinitions="*, Auto">
+        <Image x:Name="PXLImage" Grid.Row="0"
+               Source="https://www.pxl.be/media/mn0phfug/image.png"
+               HorizontalOptions="Center"/>
+        <Label Text="Hello PXL!" Grid.Row="1"
+               HorizontalOptions="Center"/>
+    </Grid>
+</ContentPage>
